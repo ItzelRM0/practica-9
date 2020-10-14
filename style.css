@@ -1,0 +1,92 @@
+body {
+    background: url("fondo.jpg");
+}
+
+form {
+    margin:  230px auto;
+    margin-right: 30px ;
+    
+    width: 350px;
+    height: 388px;
+    background: white;
+    border-bottom: 10px solid darkred;
+}
+
+form label {
+    display: block;
+    color: white;
+    background: #991504;
+    padding: 12px 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: unset;
+    font-family: cursive;
+}
+
+form input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="text1"]{
+    width: 230px;
+    padding: 12px 40px;
+    font-weight: bold;
+    font-family: cursive;
+    margin-left: 18px;
+    margin-bottom: 10px;
+    border: 1px solid #f07800;
+    text-transform: uppercase;
+    
+
+}
+
+form input[type="text"]{
+    background: url("user.png") 5px no-repeat;
+}
+
+form input[type="password"]{
+    background: url("contraseña.png") 5px no-repeat;
+}
+
+form input[type="email"]{
+    background: url("email.jpg") 5px no-repeat;
+}
+
+form input[type="tel"]{
+    background: url("telefono.jpg") 5px no-repeat;
+}
+
+form input[type="text1"]{
+    background: url("direccion.png") 5px no-repeat;
+}
+
+form input[type="submit"]{
+    background: rgb(236, 119, 90);
+    color: white;
+    display: inline-block;
+    margin-left: 18px;
+    margin-bottom: 10px;
+    padding: 8px 17px;
+    border: none;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover{
+    background: #e0b0aa;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: end;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: unset;
+    font-family: cursive;
+}
+
+h2 {
+    text-align: end;
+    margin-inline-end: 100px;
+    font-size: 25px;
+    font-style: unset;
+    font-weight: bold;
+    font-family: cursive;
+} 
